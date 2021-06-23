@@ -1,0 +1,48 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	height: 90vh;
+	width: 100%;
+	/*background: orangered ;*/
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+	width: 50vh;
+	border: 1px black solid;
+	border-radius: 5px;
+
+}
+.parent{
+
+	/*background: white;*/
+}
+.child{
+	/*background: yellow;*/
+}
+
+#fname,#lname{
+	margin: 0.625rem;
+	padding: 0.313rem;
+	width: 80%;
+	border: none;
+	border-radius: 10px;
+	border: 1px #FF355E solid;
+
+}
+#submit{
+	margin-left: 10px;
+	padding: 7px;
+  width: 50%;
+  background-color: #FF355E;
+  color: white;
+  /*padding: 14px 20px;*/
+  /*margin: 8px 0;*/
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
