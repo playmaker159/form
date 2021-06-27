@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #5a87db;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+  width: 50vh;
+  background-color: #df4d4d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form #fname, .form #lname, .form #submit {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.form input[type=submit] {
+  width: 110%;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form input[type=submit]:hover {
+  background-color: #7e0000;
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+/*# sourceMappingURL=main.css.map */
